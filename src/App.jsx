@@ -564,7 +564,7 @@ function App() {
   const fetchRecommendations = async () => {
     setLoading(true);
     const query = cart.join(",");
-    const res = await axios.get(`http://localhost:5000/recommend?cart=${query}`);
+    const res = await axios.get(`https://smartcartai-2.onrender.com/recommend?cart=${query}`);
     setRecommendations(res.data);
     setLoading(false);
   };
