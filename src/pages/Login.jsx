@@ -36,7 +36,7 @@ function Login() {
   return (
     <div className="h-screen flex items-start justify-center pt-[10%] bg-gradient-to-b from-blue-200 to-blue-400">
       <div className="bg-white p-10 rounded-xl shadow-xl w-full max-w-md">
-        <h2 className="text-3xl font-bold text-center text-blue-700 mb-6">🔐 Login</h2>
+        <h2 className="text-3xl font-bold text-center text-blue-700 mb-6"> Login into SmartCartAI </h2>
 
         <form onSubmit={handleLogin}>
           <input
